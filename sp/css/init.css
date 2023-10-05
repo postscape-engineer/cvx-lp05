@@ -41,8 +41,8 @@ body { -webkit-text-size-adjust: none; background: #fff; }
 /*
  * Inner InitialStyle
  */
-.inner { width:1000px; margin: 0 auto; padding: 0; position:relative; }
-.fv-inner{width: 1200px; margin: 0 auto; padding: 0;position:relative;}
+.inner { width:690px; margin: 0 auto; padding: 0; position:relative; }
+
 
 /* =============================================================================
 	 Image
