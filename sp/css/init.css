@@ -165,11 +165,12 @@ common ttl style	200304 edit
 
 .common__ttl-style { 
 	position: relative;
-	margin: 0 0 35px;
-	font-size: 30px; font-weight: bold;
+	margin: 0 0 2.15rem;
+	font-size: 2.2rem; 
+	font-weight: bold;
 	text-align: center;
-	line-height: 1.7;
-	letter-spacing: .08em;
+	line-height: 1.55;
+	letter-spacing: .09em;
 }
 /*.common__ttl-style:before{ position: absolute; top: -25px; left: 50%; width: 50px; margin-left: -25px; border-bottom: solid #349599 5px; content: "";}*/
 .w400{width: 400px;}

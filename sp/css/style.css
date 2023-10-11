@@ -180,27 +180,24 @@
 /*==============================================================================
 	.cta style 200304 edit
 ============================================================================= */
-.cta__bg { background: url(../img/cta-bg.jpg) no-repeat 50% 0;height: 27.1rem;padding: 3.2rem 0 2rem 0; background-size: cover;}
+.cta__bg { background: url(../img/cta-bg.jpg) no-repeat 50% 0;padding: 4.2rem 0 3rem 0; background-size: cover;}
 .cta .inner {color: #fff;}
-.cta__ttl { font-weight:bold;margin: 0 0 1.55rem;font-size: 2.2rem;text-align: center;font-feature-settings: "palt";letter-spacing: 0.08rem;}
-.cta__list {margin: 0 0 20px;display: flex;justify-content: space-between;}
-.cta__txt {font-weight:bold;margin: 0 0 0.6rem;font-size: 1.25rem;text-align: center;}
-.cta__btn{width: 478px;}
-.cta__number {width: 30rem;margin: -0.68rem auto 0 auto;padding: 0 0 0 4rem;position: relative;font-size: 3.7rem;}
-.cta__number .tel:before {position: absolute;top: 1.25rem;left: 2rem;width: 2.9rem;height: 3.5rem;background: url(../img/cta_icon01.png) no-repeat;background-size: contain;content: "";}
-.cta__number .tel {font-family: 'Arial';letter-spacing: 0.01em;margin-left: 2rem;font-weight: bold;}
-.cta__number .day {font-weight: 500;margin: -0.8rem 0 0 3rem;font-size: 1.25rem;letter-spacing: 0.08em;}
+.cta__ttl { font-weight:bold;margin: 0 0 3.3rem;font-size: 2.7rem;text-align: center;font-feature-settings: "palt";letter-spacing: 0.08em;line-height: 1.49;}
+.cta__txt {font-weight:500;margin: 0 0 0.6rem;font-size: 1.7rem;text-align: center;}
+.cta__item:nth-child(2) .cta__txt {margin: 0 0 0.8rem;}
+.cta__btn{margin-bottom: 2.45rem;}
+.cta__number .tel {font-family: 'Arial';letter-spacing: 0.01em;font-weight: bold;font-size: 3rem;text-align: center;margin: -2.1rem 0 0 0;letter-spacing: 0.05em;}
+.cta__number .day {font-weight: 500;font-size: 1.25rem;letter-spacing: 0.08em;text-align: center;margin: -.9rem 0 0 0;}
 /*============================================================================== *
 	.tool style	200304 edit
 ============================================================================= */
-.tool__bg { margin: 4.61rem 0 4.73rem;}
-.tool__ttl{font-weight:bold;font-size: 1.8rem; color: #fff; border: none; border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; background-color: #222; padding: 0.39rem 1.65rem; width: 56.7rem; margin: 0 auto; letter-spacing: 0.23rem;font-feature-settings: "palt";}
-.tool__ttl02{font-weight:bold;font-size: 1.9rem;text-align: center; margin-top: 1.4rem;line-height: 1.72;letter-spacing: .25rem;font-feature-settings: "palt";color: #222;}
-.tool__ttl02 span{font-size: 1.94rem;letter-spacing: .3rem;}
-.tool__list { width: 980px;margin: 2.72rem 0 3rem 0;}
-.tool__item{ float: left; margin:0 40px 0 0; }
-.tool__item:first-child+*+*{ margin:0 0; }
-.tool__txt {font-weight:400;font-size: 18px;text-align: center;letter-spacing: .1rem;line-height: 1.78;color: #222;}
+.tool__bg { margin: 5.2rem 0 5.2rem;}
+.tool__ttl{font-weight:500;font-size: 2.2rem; color: #fff; border: none; border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; background-color: #222; padding: 1.1rem 1.5rem; letter-spacing: 0.09em;font-feature-settings: "palt";line-height: 1.53;margin: 0 0 1.95rem;}
+.tool__ttl02{font-weight:bold;font-size: 2rem;text-align: center;line-height: 1.72;letter-spacing: .03em;font-feature-settings: "palt";color: #222;}
+.tool__ttl02 span{font-size: 2.5rem;letter-spacing: .05em; line-height: 1.45;}
+.tool__list {margin: 2.3rem 0 2.8rem 0;display: flex; flex-wrap: wrap;justify-content: space-around;}
+.tool__item:last-child{margin: 2rem 0 0;}
+.tool__txt {font-weight:400;font-size: 1.7rem;letter-spacing: .06em;line-height: 1.7;color: #222;}
 /*==============================================================================
 	.product style
 ============================================================================= */
