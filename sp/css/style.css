@@ -373,25 +373,26 @@
 /*==============================================================================
 	.faq style
 ============================================================================= */
-.faq__bg{padding: 5.2rem 0 0 0;background: #fff;}
-.faq_ttl02 {text-align: center;font-size: 3rem;font-weight:bold;margin: 0 0 1.8rem;color: #222;}
-.faq__list {}
-.faq__item {margin: 0 0 4rem;}
+.faq__bg{padding: 5.3rem 0 0 0;background: #fff;}
+.faq_ttl02 {text-align: center;font-size: 3rem;font-weight:bold;margin: 0 0 2.7rem;color: #222;}
+.faq__item {margin: 0 0 3.3rem;}
 .faq__item .q__box {position: relative;background: url(../img/faq-item-bg01.png) no-repeat 50% 0;border: none;border-radius: 0.6rem 0.6rem 0 0;height: 9rem;}
-.faq__item .q__txt {padding: 2.5rem 0 0 6.5rem;color: #fff;font-size: 2rem;font-weight:bold;} 
-.faq__item .q__box::before {content: url(../img/faq-item-icon01.png);position: absolute;top: 30%;left: 5%;}
+.faq__item .q__txt {padding: 2.6rem 0 0 6.5rem;color: #fff;font-size: 2rem;font-weight:bold;letter-spacing: .03em;line-height: 1.5;font-feature-settings: "palt";}
+.faq__item:nth-child(2) .q__txt{padding: 1.2rem 0 0 6.5rem;}
+.faq__item:nth-child(4) .q__txt{padding: 1.2rem 0 0 6.5rem;}
+.faq__item .q__box::before {content: url(../img/faq-item-icon01.png);position: absolute;top: 32.5%;left: 5%;}
 .faq__item .a__box {position: relative;}
-.faq__item .a__box .red__box {padding: 21px 0 15px 40px;color: #ef5622;}
-.faq__item .red__box::before {content: url(../img/faq-item-icon02.png);position: absolute;top: 39px;left: 5%;}
-.faq__item .a__box .red__box .a__txt {font-size: 2rem;font-weight:500;padding-left: 1rem;}
-.faq__item .a__box .small__txt { font-size: 16px;line-height: 1.95;letter-spacing: 0.01em;font-weight: 400;color: #222;}
-.faq__item .a__box .link__txt {margin: 31px 0 0;font-size: 16px;text-align: right;font-weight: 400;}
+.faq__item .a__box .red__box {color: #ef5622;padding: 1.05rem 0 .75rem 6rem;}
+.faq__item .red__box::before {content: url(../img/faq-item-icon02.png);position: absolute;top: 6%;left: 5%;}
+.faq__item .a__box .red__box .a__txt {font-size: 1.9rem;font-weight:500;letter-spacing: .05em;line-height: 1.5;font-feature-settings: "palt";}
+.faq__item .a__box .small__txt { font-size: 1.76rem;line-height: 1.7;letter-spacing: .05em;font-weight: 400;color: #222;padding: 0 0 0 2rem;font-feature-settings: "palt";}
+.faq__item .a__box .link__txt {font-size: 1.6rem;text-align: right;font-weight: 400;letter-spacing: .05em;margin: -.8rem 0 4rem 0;}
 /*==============================================================================
 	.work style
 ============================================================================= */
-.work__bg {padding: 24.5px 0 65px;}
-.work__ttl {color: #222;font-size: 2.5rem;font-weight:bold;}
-.work__txt{text-align: center; font-size: 18px; letter-spacing: .07em; margin: -.8rem 0 30px;font-weight: 500;color: #222;}
+.work__bg {padding: 4rem 0 6rem;}
+.work__ttl {color: #222;font-size: 3rem;font-weight:bold;}
+.work__txt{text-align: center; font-size: 2rem; letter-spacing: .09em; margin: -.8rem 0 30px;font-weight: 400;color: #222;line-height: 1.6;}
 .work__img{text-align: center;}
 .s-1647766811652 [data-layout="chart_04"] { padding: 38px 0; background: #fff;}
 .s-1647766811652 [data-layout="chart_04"] [data-layout="inner"] { width: 1000px; margin: 0 auto; }
