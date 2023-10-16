@@ -182,9 +182,11 @@
 ============================================================================= */
 .cta__bg { background: url(../img/cta-bg.jpg) no-repeat 50% 0;padding: 4.2rem 0 3rem 0; background-size: cover;}
 .cta .inner {color: #fff;}
-.cta__ttl { font-weight:bold;margin: 0 0 3.3rem;font-size: 2.7rem;text-align: center;font-feature-settings: "palt";letter-spacing: 0.08em;line-height: 1.49;}
-.cta__txt {font-weight:500;margin: 0 0 0.6rem;font-size: 1.7rem;text-align: center;}
-.cta__item:nth-child(2) .cta__txt {margin: 0 0 0.8rem;}
+.cta__ttl { font-weight:bold;margin: 0 0 3.3rem;font-size: 2.7rem;text-align: center;font-feature-settings: "palt";letter-spacing: 0.07em;line-height: 1.49;}
+.cta__txt {font-weight:500;margin: 0 0 0.6rem;font-size: 1.7rem;text-align: center;position: relative;}
+.cta__txt::before{content: "";position: absolute;top: 1.3rem;left: 1.7rem;width: 2.5rem;height: 0.07rem;background: #ffffff;transform: rotate(60deg);}
+.cta__txt::after{content: "";position: absolute;top: 1.3rem;right: 1.8rem;width: 2.5rem;height: 0.07rem;background: #ffffff;transform: rotate(120deg);}
+.cta__item:nth-child(2) .cta__txt {margin: 0 0 0.8rem;position: relative;}
 .cta__btn{margin-bottom: 2.45rem;}
 .cta__number .tel {font-family: 'Arial';letter-spacing: 0.01em;font-weight: bold;font-size: 3rem;text-align: center;margin: -2.1rem 0 0 0;letter-spacing: 0.05em;}
 .cta__number .day {font-weight: 500;font-size: 1.25rem;letter-spacing: 0.08em;text-align: center;margin: -.9rem 0 0 0;}
@@ -215,7 +217,7 @@
 .book .book__bg { padding: 5.4rem 0 2.4rem;background-color:#eaf2f2;}
 .book__box__ttl {font-weight:bold;text-align: center;}
 .book h3 {color: #349599;font-size: 2.7rem;font-weight: bold;letter-spacing: .04em;line-height: 1.47;}
-.book__box .lead {color: #222;font-size: 2rem;letter-spacing: .08em;text-align: left;line-height: 1.46;font-weight: bold;margin: 1rem 0 2.8rem 0;}
+.book__box .lead {color: #222;font-size: 2rem;letter-spacing: .08em;text-align: left;line-height: 1.46;font-weight: bold;margin: 1rem 0 2.8rem 0;font-feature-settings: "palt";}
 .book__box .sale {width: 7.4rem;height: 7.4rem;padding: 1rem;border: 1px solid #ef5622;background-color: #ef5622;border-radius: 50%;color: #fff;font-size:1.7rem;font-weight:500;text-align:center;position: absolute;top: 4.5rem;right:0;line-height:1.4;}
 .book .flex-item {background-color: #fff;padding: 1.2rem 1.5rem 1.7rem;border: none;border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;box-shadow: 0 10px 25px 0 rgba(185, 185, 185, 0.5);margin: 0 0 3.8rem;}
 .book .flex-item .img-book { margin: 1rem 0 1.4rem; letter-spacing: .1em;}
@@ -228,7 +230,7 @@
 .pdca__bg {padding:5.9rem 0;  background:url(../img/pdca-bg.jpg) no-repeat 50% 0;background-size: cover; }
 .pdca__ttl {font-weight:bold;font-size: 2.3rem;color: #fff; border: none;border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;background-color: #222; padding: .5rem .3rem .95rem .3rem;letter-spacing: 0.15rem;}
 .pdca__ttl02{color: #222; font-weight:bold; text-align: center;margin: -.9rem 0 0 0; line-height: 1.6;}
-.pdca__ttl02 .pdca-ttl02-01 {font-size: 2.3rem;letter-spacing: .09em; text-align: center;}
+.pdca__ttl02 .pdca-ttl02-01 {font-size: 2.3rem;letter-spacing: .07em; text-align: center;}
 .pdca__ttl02 .color-green {font-size: 3rem;letter-spacing: .05em; text-align: center;margin: -.2rem 0 .8rem 0;}
 .pdca__ttl02 .pdca-ttl02-02 {font-size: 1.8rem;text-align: center;}
 .pdca .txt-center{margin: 3rem 0 4.1rem;}
@@ -238,7 +240,7 @@
 .pdca-img02{position: absolute; bottom: 16rem; right: -2rem;}
 .pdca-img03{position: absolute; bottom:-3rem; left: -2rem;}
 .pdca-img04{position: absolute; bottom: -3rem; right: -2rem;}
-.pdca .btm-txt { font-weight: 500;font-size: 1.7rem; text-align: center; letter-spacing: .06em;line-height: 1.65; color: #222;}
+.pdca .btm-txt { font-weight: 500;font-size: 1.7rem; text-align: center; letter-spacing: .05em;line-height: 1.65; color: #222;}
 /*==============================================================================
 	.test style 200304 bg, SPを変更
 ============================================================================= */
@@ -386,26 +388,27 @@
 .faq__item .red__box::before {content: url(../img/faq-item-icon02.png);position: absolute;top: 6%;left: 5%;}
 .faq__item .a__box .red__box .a__txt {font-size: 1.9rem;font-weight:500;letter-spacing: .05em;line-height: 1.5;font-feature-settings: "palt";}
 .faq__item .a__box .small__txt { font-size: 1.76rem;line-height: 1.7;letter-spacing: .05em;font-weight: 400;color: #222;padding: 0 0 0 2rem;font-feature-settings: "palt";}
-.faq__item .a__box .link__txt {font-size: 1.6rem;text-align: right;font-weight: 400;letter-spacing: .05em;margin: -.8rem 0 4rem 0;}
+.faq__item .a__box .link__txt {font-size: 1.6rem;text-align: right;font-weight: 400;letter-spacing: .08em;margin: -.8rem 0 4rem 0;}
 /*==============================================================================
 	.work style
 ============================================================================= */
-.work__bg {padding: 4rem 0 6rem;}
-.work__ttl {color: #222;font-size: 3rem;font-weight:bold;}
-.work__txt{text-align: center; font-size: 2rem; letter-spacing: .09em; margin: -.8rem 0 30px;font-weight: 400;color: #222;line-height: 1.6;}
+.work__bg {padding: 3.9rem 0 6rem;}
+.work__ttl {color: #222;font-size: 2.9rem;font-weight:bold;margin: 0 0 1.8rem;}
+.work__txt{text-align: center; font-size: 2rem; letter-spacing: .09em; margin: -.8rem 0 3.1rem;font-weight: 400;color: #222;line-height: 1.6;}
 .work__img{text-align: center;}
-.s-1647766811652 [data-layout="chart_04"] { padding: 38px 0; background: #fff;}
-.s-1647766811652 [data-layout="chart_04"] [data-layout="inner"] { width: 1000px; margin: 0 auto; }
-.s-1647766811652 [data-layout="chart_04"] [data-ttl="chart_ttl01"] { margin:0 0 35px; font-size: 40px; font-weight:bold; line-height: 1.5; text-align: center;font-family: 'Noto Sans JP', sans-serif;color: #222;letter-spacing: .2rem;}
+.s-1647766811652 [data-layout="chart_04"] { padding: 2.5rem 0; background: #fff;}
+.s-1647766811652 [data-layout="chart_04"] [data-layout="inner"] { width: 690px; margin: 0 auto; }
+.s-1647766811652 [data-layout="chart_04"] [data-ttl="chart_ttl01"] { margin:0 0 3.5rem; font-size: 3rem; font-weight:bold; line-height: 1.35; text-align: center;font-family: 'Noto Sans JP', sans-serif;color: #222;letter-spacing: .09em;}
 .s-1647766811652 [data-layout="chart_04"] [data-txt="chart_txt01"] { margin: 0; color: #ff0000; font-size: 20px; font-weight: bold; text-align: center;}
-.s-1647766811652 [data-layout="chart_04"] [data-layout="chart_txt11"] { margin: 0; padding: 10px 40px; background: #eee; font-size: 20px; font-weight: bold; line-height: 1.7; }
-.s-1647766811652 [data-layout="chart_04"] [data-layout="chart_txt12"] { margin: 7.5px 0 28px; padding: 0 40px; font-size: 20px; line-height: 1.7;  }
+.s-1647766811652 [data-layout="chart_04"] [data-layout="chart_txt11"] {padding: 1.3rem 1.3rem; background: #eee; font-size: 2.2rem; font-weight: bold; line-height: 1.44; letter-spacing: .09em;height: 9.5rem;display: flex;align-items: center;font-feature-settings: "palt";justify-content: center;}
+.s-1647766811652 [data-layout="chart_04"] [data-layout="chart_txt12"] { margin: 1.8rem 0 3.3rem;font-size: 1.72rem;line-height: 1.7; letter-spacing: .05em;}
 /*==============================================================================
 	.footer style
 ============================================================================= */
-.copyright__bg-style { background-color: #2a3135;}
-.copyright__txt {color: #fff; font-family: "メイリオ", Meiryo;font-size: 16px;text-align: center;letter-spacing: 0.08em;line-height: 100px;}
-.copyright__txt a {margin-left: 10px;color: #fff;text-decoration: none;}
+.footer__bg{background-color: #2a3135;}
+.copyright__bg-style{padding: 2.47rem 0;}
+.copyright__txt {color: #fff; font-family: "メイリオ", Meiryo;font-size: 1.3rem;text-align: center;letter-spacing: 0.09em;line-height: 2.2;}
+.copyright__txt a {color: #fff;text-decoration: none;}
 /*==============================================================================
     .swiper
 ============================================================================= */
